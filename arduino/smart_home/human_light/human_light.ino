@@ -9,7 +9,6 @@ void loop()
     if(digitalRead(4) == 1)
     {
         digitalWrite(3, HIGH);
-        delay(10000);
     }
     else
     {
